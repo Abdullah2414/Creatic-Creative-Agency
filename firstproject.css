@@ -581,19 +581,6 @@ body {
 
 /* RESPONSIVENESS CODE */
 
- @media screen and (max-width:601px) {
-    .main-1{
-        flex-wrap: wrap;
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-    }
-    .main-2{
-        margin-top: 50rem;
-    }
-}
-
 @media screen and (max-width:901px) {
     .header-div{
         flex-wrap: wrap;
@@ -623,5 +610,18 @@ body {
     }
     .main-7{
         flex-wrap: wrap;
+    }
+}
+
+ @media screen and (max-width:601px) {
+    .main-1{
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+    .main-2{
+        margin-top: 50rem;
     }
 }
